@@ -1,0 +1,85 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #363636;
+  color: white;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+}
+select {
+  background-color: #212121;
+  border-radius: 0px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+select:hover {
+  background-color: #121212;
+}
+select:active {
+  background-color: #030303;
+}
+button {
+  background-color: #33963f;
+  border-radius: 0px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+button:hover {
+  background-color: #41c452;
+  cursor: pointer;
+}
+button:active {
+  background-color: #297d34;
+}
+.button {
+  background-color: #3d3d3d;
+  border-radius: 0px;
+  border: 1px solid #707070;
+  outline: none;
+  color: white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.button:hover {
+  background-color: #4d4c4c;
+  cursor: pointer;
+}
+.button:active {
+  background-color: #1f1f1f;
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background: url(https://mathcraft.ejd799.repl.co/img/headerbg.png);
+  background-size: cover;
+  color: white;
+  font-size: 30px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  margin: none;
+}
+.header-sh {
+  padding: 60px;
+  text-align: center;
+  background: url(https://mathcraft.ejd799.repl.co/img/strongholdbg.png);
+  background-size: cover;
+  color: white;
+  font-size: 30px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  margin: none;
+}
+.content {padding:20px;}
