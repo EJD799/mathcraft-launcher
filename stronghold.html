@@ -1,0 +1,39 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MathCraft Launcher</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="sidebar.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABX0lEQVQ4y3VSSUuDQQydXyN48OhCse4LVg+KFhcUaxXrMqJiFbwoIvKBIBQFexFcEHexrlAQix68+KOeJJCPNG0PmWSyvJdkxqXfYtj46MPaaw9mrxpZlp86MXlaC//Qhq2vIY4v3LUgdR3F/G0zps7r0Z+pwtJjO9z6ey8n7ufHsJMbwO7LIEaj1Zi7aULyooGBjn6mkSkkmISKKZ/AFu9b4Q4+J7jg5M9j5jLCDHRfyXWxpg63C3EcfieR/U2xbzhbg8RZHduODu89X0hWn7tDm4Q6IE3tkt6MR8IY2e7Yx9ggnd8b54D4dLIQSW4IIEnk1GC6UIOJTUKEjg7tDIKgKEHi2tZEzibrTnQ35fwMYJ1aS8u2WMecXYrdshU7itOMdmYBFr8eRXblys2lGejp9Aj6mfkjWacFqSTSVdEIJOmRjpLFyRiyF/1azibpDev5LVEJgP0DsqRK7y8E/2kQKqQTbHIJAAAAAElFTkSuQmCC">
+  <link rel="manifest" href="/pwa/manifest.webmanifest" />
+</head>
+<div id="mySidenav" class="sidenav">
+  <a href="/">MathCraft2D</a>
+  <a href="/3d.html">MathCraft3D</a>
+  <a href="/mathx.html">MathCraftX</a>
+  <a href="/mcx.html">MathCraft Scrolls</a>
+  <a href="/scroll.html" class="snbtns">MathCraft Strongholds</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()"></span>
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+    <div class="header-sh">
+<img src="/img/shlogo.png" width="300" height="100"></img>
+  </div>
+  <br>
+  <center>
+  <!--<span>Please enter a username:</span><br>
+  <input id="usernameBox"></input><br>-->
+  <script src="script.js"></script>
+  <button onclick="top.location = '/spinoffgame/stronghold.html';">Play</button>
+  </center>
+</div>
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  openNav();
+</script>
